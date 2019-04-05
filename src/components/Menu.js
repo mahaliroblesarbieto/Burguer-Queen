@@ -1,7 +1,28 @@
 import React from 'react';
 
 class Menu extends React.Component {
+  // constructor() {
+  //   super();
+  //   this.state = {
+  //     menu: menu
+  //   }
+  // }
 
+  // render() {
+  //   const menu = this.state.menu.map((item, i) => {
+  //     return (
+  //       <div>
+  //         <button>{item.title} - {item.value}</button>
+  //       </div>
+  //     )
+  //   })
+
+  //   return (
+  //     <div>
+  //       {menu}
+  //     </div>
+  //     )
+  // }
   constructor(props) {
     super(props);
     this.state = {
@@ -11,7 +32,7 @@ class Menu extends React.Component {
   }
 
   componentDidMount() {
-    fetch('https://raw.githubusercontent.com/mahaliroblesarbieto/LIM008-fe-burger-queen/developer/src/data/menu.json')
+    fetch('https://raw.githubusercontent.com/mahaliroblesarbieto/LIM008-fe-burger-queen/prototype/src/data/menu.json')
       .then(res => res.json())
       .then((json) => {
         this.setState({

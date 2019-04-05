@@ -1,12 +1,91 @@
-{
-    "menu": [{
-        "title": "Hamburguesa simple de res",
-        "value": "10.00"
-    },{
-        "title": "Hamburguesa simple de pollo",
-        "value": "10.00"
-    },{
-        "title": "Hamburguesa simple vegetariana",
-        "value": "10.00"
+[{
+  "name": "Sandwich de jamon y queso",
+  "value": 10.00,
+  "option": "Sandwich",
+  "type": "Desayuno"
+},{
+  "name": "Jugo Natural",
+  "value": 7.00,
+  "option": "Bebidas",
+  "type": "Desayuno"
+},{
+  "name": "Café con leche",
+  "value": 7.00,
+  "option": "Bebidas",
+  "type": "Desayuno"
+},{
+  "name": "Café americano",
+  "value": 5.00,
+  "option": "Bebidas",
+  "type": "Desayuno"
+},{
+  "name": "Hamburguesa simple de res",
+  "value": 10.00,
+  "option": "Hamburguesa simple",
+  "type": "Resto del día"
+},{
+  "name": "Hamburguesa simple de pollo",
+  "value": 10.00,
+  "option": "Hamburguesa simple",
+  "type": "Resto del día"
+  },{
+  "name": "Hamburguesa simple vegetariana",
+  "value": 10.00,
+  "option": "Hamburguesa simple",
+  "type": "Resto del día"
+  },{
+  "name": "Hamburguesa doble de res",
+  "value": 15.00,
+  "option": "Hamburguesa doble",
+  "type": "Resto del día"
+  },{
+  "name": "Hamburguesa doble de pollo",
+  "value": 15.00,
+  "option": "Hamburguesa doble",
+  "type": "Resto del día"
+  },{
+  "name": "Hamburguesa doble vegtariana",
+  "value": 15.00,
+  "option": "Hamburguesa doble",
+  "type": "Resto del día"
+  },{
+  "name": "Papas fritas",
+  "value": 5.00,
+  "option": "Acompañamiento",
+  "type": "Resto del día"
+  },{
+  "name": "Aros de cebolla",
+  "value": 5.00,
+  "option": "Acompañamiento",
+  "type": "Resto del día"
+  },{
+  "name": "Agua 500 mL",
+  "value": 5.00,
+  "option": "Bebidas",
+  "type": "Resto del día"
+  },{
+  "name": "Agua 750 mL",
+  "value": 8.00,
+  "option": "Bebidas",
+  "type": "Resto del día"
+  },{
+  "name": "Gaseosa 500 mL",
+  "value": 7.00,
+  "option": "Bebidas",
+  "type": "Resto del día"
+  },{
+  "name": "Gaseosa 750 mL",
+  "value": 10.00,
+  "option": "Bebidas",
+  "type": "Resto del día"
+  },{
+  "name": "Queso",
+  "value": 1.00,
+  "option": "Adicional",
+  "type": "Resto del día"
+  },{
+  "name": "Huevo",
+  "value": 1.00,
+  "option": "Adicional",
+  "type": "Resto del día"
     }]
-}

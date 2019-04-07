@@ -1,28 +1,7 @@
 import React from 'react';
+import './styles/Menu.css';
 
 class Menu extends React.Component {
-  // constructor() {
-  //   super();
-  //   this.state = {
-  //     menu: menu
-  //   }
-  // }
-
-  // render() {
-  //   const menu = this.state.menu.map((item, i) => {
-  //     return (
-  //       <div>
-  //         <button>{item.title} - {item.value}</button>
-  //       </div>
-  //     )
-  //   })
-
-  //   return (
-  //     <div>
-  //       {menu}
-  //     </div>
-  //     )
-  // }
   constructor(props) {
     super(props);
     this.state = {
@@ -51,11 +30,9 @@ class Menu extends React.Component {
     return (
       <div>
         {items.map(item => (
-          <div>
-            {item.name}
-            {item.value}
-            <button type="button">+</button>
-          </div>
+          <button className="margin" type="button">
+            {`${item.name} ${item.value}`}
+          </button>
         ))}
       </div>
     );

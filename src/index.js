@@ -9,4 +9,4 @@ import 'bootstrap/dist/css/bootstrap.css';
 const container = document.getElementById('root');
 ReactDOM.render(<BadgeNew />, container);
 
-serviceWorker.unregister();
+serviceWorker.register();

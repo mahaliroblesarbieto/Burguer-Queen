@@ -3,15 +3,13 @@
   "name": "Burger Queen",
   "icons": [
     {
-      "src": "/icon.png",
+      "src": "icon.png",
       "sizes": "512x427",
       "type": "image/png"
     }
   ],
-  "start_url": "/",
-  "scope": "/",
+  "start_url": ".",
   "display": "standalone",
-  "orientation": "landscape",
   "theme_color": "#000000",
   "background_color": "#ffffff",
   "related_applications": [],

@@ -10,11 +10,11 @@ export default function Menu({ addOrden, state }) {
   return (
     <div className="background-blue">
       <div className="row button-center margintop margin-filter-bottom">
-        <div className="col-6 margin-filter">
-          <button className="button-filter weigth marginsup" type="button" onClick={() => setFilter('Desayuno')} data-testid="filter-button-desayuno">DESAYUNO</button>
+        <div className="col-6">
+          <button className="button-filter weigth marginsup list-group-item list-group-item-action tabs" type="button" onClick={() => setFilter('Desayuno')} data-testid="filter-button-desayuno">DESAYUNO</button>
         </div>
         <div className="col-6">
-          <button className="button-filter weigth marginsup" type="button" onClick={() => setFilter('Resto del día')} data-testid="filter-button-restodeldia">MENÚ</button>
+          <button className="button-filter weigth marginsup list-group-item list-group-item-action tabs" type="button" onClick={() => setFilter('Resto del día')} data-testid="filter-button-restodeldia">MENÚ</button>
         </div>
       </div>
       <div className="background-blue div-center">
@@ -34,7 +34,7 @@ export default function Menu({ addOrden, state }) {
               </p>
             </div>
             <div className="col-3 width section centrar1">
-              <button key={item.id} className="button-addOrden" type="button" onClick={() => addOrden(item.name)} data-testid="addOrden-button"><i className="fas fa-shopping-cart"></i></button>
+              <span key={item.id} className="addOrden" role="presentation" onClick={() => addOrden(item.name)} data-testid="addOrden-button"><i className="fas fa-shopping-cart"></i></span>
             </div>
           </div>
         ))}

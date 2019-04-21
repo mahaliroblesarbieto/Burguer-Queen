@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/LIM008-fe-burger-queen/static/js/runtime~main.10776b7b.js"
   },
   {
-    "revision": "d8056ab6b06a14711472",
+    "revision": "ed6ef2c7e6c342ac4adc",
     "url": "/LIM008-fe-burger-queen/static/js/main.50b575ff.chunk.js"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = [
     "url": "/LIM008-fe-burger-queen/static/js/2.e467a123.chunk.js"
   },
   {
-    "revision": "d8056ab6b06a14711472",
-    "url": "/LIM008-fe-burger-queen/static/css/main.fdb063e4.chunk.css"
+    "revision": "ed6ef2c7e6c342ac4adc",
+    "url": "/LIM008-fe-burger-queen/static/css/main.7a2fed0e.chunk.css"
   },
   {
     "revision": "2b0b6dcf87fc51d0c8bb",
     "url": "/LIM008-fe-burger-queen/static/css/2.16434e7e.chunk.css"
   },
   {
-    "revision": "632c21d1b7b83178632b9691e0008764",
+    "revision": "0feb2170f0c0501ba9a30e3b48f0310e",
     "url": "/LIM008-fe-burger-queen/index.html"
   }
 ];

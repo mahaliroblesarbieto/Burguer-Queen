@@ -1,5 +1,5 @@
 {
-  "main.css": "/LIM008-fe-burger-queen/static/css/main.15b5059f.chunk.css",
+  "main.css": "/LIM008-fe-burger-queen/static/css/main.fc4a031a.chunk.css",
   "main.js": "/LIM008-fe-burger-queen/static/js/main.50b575ff.chunk.js",
   "main.js.map": "/LIM008-fe-burger-queen/static/js/main.50b575ff.chunk.js.map",
   "runtime~main.js": "/LIM008-fe-burger-queen/static/js/runtime~main.10776b7b.js",
@@ -8,8 +8,8 @@
   "static/js/2.e467a123.chunk.js": "/LIM008-fe-burger-queen/static/js/2.e467a123.chunk.js",
   "static/js/2.e467a123.chunk.js.map": "/LIM008-fe-burger-queen/static/js/2.e467a123.chunk.js.map",
   "index.html": "/LIM008-fe-burger-queen/index.html",
-  "precache-manifest.ed7a18486f280b908bbc0d6ba915abd1.js": "/LIM008-fe-burger-queen/precache-manifest.ed7a18486f280b908bbc0d6ba915abd1.js",
+  "precache-manifest.d6765314d08fdc32db6e72f43c174c88.js": "/LIM008-fe-burger-queen/precache-manifest.d6765314d08fdc32db6e72f43c174c88.js",
   "service-worker.js": "/LIM008-fe-burger-queen/service-worker.js",
   "static/css/2.16434e7e.chunk.css.map": "/LIM008-fe-burger-queen/static/css/2.16434e7e.chunk.css.map",
-  "static/css/main.15b5059f.chunk.css.map": "/LIM008-fe-burger-queen/static/css/main.15b5059f.chunk.css.map"
+  "static/css/main.fc4a031a.chunk.css.map": "/LIM008-fe-burger-queen/static/css/main.fc4a031a.chunk.css.map"
 }

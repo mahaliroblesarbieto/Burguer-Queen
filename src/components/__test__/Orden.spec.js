@@ -115,7 +115,7 @@ describe('Orden', () => {
         addUser={addUser}
       />,
     );
-    const buttonUpdateItemSubs = getByTestId('0-update-button-subs');
-    fireEvent.click(buttonUpdateItemSubs);
+    const descreaseItemBtn = getByTestId('0-update-button-subs');
+    fireEvent.click(descreaseItemBtn);
   });
 });

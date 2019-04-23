@@ -18,8 +18,14 @@ const BadgeNew = () => {
   }, []);
 
   const [orden, setOrden] = useState([]);
-  const addOrden = (name) => {
-    state.filter(item => (item.name === name ? setOrden([...orden, item]) : item));
+  const addOrden = (obj) => {
+    if (orden.includes(obj)) {
+      const index = orden.indexOf(obj);
+      orden[index].count += 1;
+      setOrden([...orden]);
+    } else {
+      state.filter(item => (item.name === obj.name ? setOrden([...orden, item]) : item));
+    }
   };
   const deleteOrden = (name) => {
     setOrden(orden.filter(item => item.name !== name));
@@ -46,10 +52,10 @@ const BadgeNew = () => {
         <Navbar />
       </div>
       <div className="row width-total">
-        <div className="col-md-6 background-principal">
+        <div className="col-md-6">
           <Menu addOrden={addOrden} state={state} />
         </div>
-        <div className="col-md-6 background-principal margin-black">
+        <div className="col-md-6 margin-black">
           <Orden
             orden={orden}
             deleteOrden={deleteOrden}

@@ -18,6 +18,14 @@
 }
 
 .principal{
-  font-size: 170%;
+  font-size: 200%;
   color: white
+}
+
+.margin-title{
+  padding-left: 20%;
+}
+
+.option{
+  color:white
 }

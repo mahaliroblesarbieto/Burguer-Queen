@@ -1,15 +1,15 @@
 {
-  "main.css": "/LIM008-fe-burger-queen/static/css/main.ab12023d.chunk.css",
-  "main.js": "/LIM008-fe-burger-queen/static/js/main.0465570c.chunk.js",
-  "main.js.map": "/LIM008-fe-burger-queen/static/js/main.0465570c.chunk.js.map",
-  "runtime~main.js": "/LIM008-fe-burger-queen/static/js/runtime~main.10776b7b.js",
-  "runtime~main.js.map": "/LIM008-fe-burger-queen/static/js/runtime~main.10776b7b.js.map",
-  "static/css/2.9c345343.chunk.css": "/LIM008-fe-burger-queen/static/css/2.9c345343.chunk.css",
-  "static/js/2.e560822f.chunk.js": "/LIM008-fe-burger-queen/static/js/2.e560822f.chunk.js",
-  "static/js/2.e560822f.chunk.js.map": "/LIM008-fe-burger-queen/static/js/2.e560822f.chunk.js.map",
-  "index.html": "/LIM008-fe-burger-queen/index.html",
-  "precache-manifest.696b72b4a03772ebc76486f5e8158a6d.js": "/LIM008-fe-burger-queen/precache-manifest.696b72b4a03772ebc76486f5e8158a6d.js",
-  "service-worker.js": "/LIM008-fe-burger-queen/service-worker.js",
-  "static/css/2.9c345343.chunk.css.map": "/LIM008-fe-burger-queen/static/css/2.9c345343.chunk.css.map",
-  "static/css/main.ab12023d.chunk.css.map": "/LIM008-fe-burger-queen/static/css/main.ab12023d.chunk.css.map"
+  "main.css": "/Burguer-Queen/static/css/main.ab12023d.chunk.css",
+  "main.js": "/Burguer-Queen/static/js/main.7104fd7e.chunk.js",
+  "main.js.map": "/Burguer-Queen/static/js/main.7104fd7e.chunk.js.map",
+  "runtime~main.js": "/Burguer-Queen/static/js/runtime~main.232c1f5c.js",
+  "runtime~main.js.map": "/Burguer-Queen/static/js/runtime~main.232c1f5c.js.map",
+  "static/css/2.9c345343.chunk.css": "/Burguer-Queen/static/css/2.9c345343.chunk.css",
+  "static/js/2.f9f83fa9.chunk.js": "/Burguer-Queen/static/js/2.f9f83fa9.chunk.js",
+  "static/js/2.f9f83fa9.chunk.js.map": "/Burguer-Queen/static/js/2.f9f83fa9.chunk.js.map",
+  "index.html": "/Burguer-Queen/index.html",
+  "precache-manifest.fb7663b0bb20177129654efb890949c4.js": "/Burguer-Queen/precache-manifest.fb7663b0bb20177129654efb890949c4.js",
+  "service-worker.js": "/Burguer-Queen/service-worker.js",
+  "static/css/2.9c345343.chunk.css.map": "/Burguer-Queen/static/css/2.9c345343.chunk.css.map",
+  "static/css/main.ab12023d.chunk.css.map": "/Burguer-Queen/static/css/main.ab12023d.chunk.css.map"
 }

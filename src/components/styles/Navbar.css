@@ -1,23 +1,56 @@
-.Navbar {
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+.NavbarClass {
     width: 100%;
-    padding: 0.5rem 0;
-    background-color: #333333;
-    color: #ffffff;
-    text-decoration: none;
+    font-family: 'Alfa Slab One', cursive;
   }
-  
-  .Navbar__brand {
-    color: #ffffff;
-  
-    display: flex;
-    align-items: center;
+
+.margin-li{
+    border-right: 2px solid white;
   }
-  
-  .Navbar__brand:hover {
-    color: #ffffff;
-    text-decoration: none;
+
+.margin-left{
+  margin-left: 20%;
+  padding-left: 32%
+}
+
+.title{
+  font-size: 80%
+}
+
+.principal{
+  font-size: 200%;
+  color: white
+}
+
+.margin-title{
+  padding-left: 20%;
+}
+
+.white-color{
+  color: white
+}
+
+.option{
+  color:white
+}
+
+@media only screen and (min-width: 769px) {
+  .nav-center{
+    text-align: center;
   }
-  
-  .Navbar__brand-logo {
-    margin-right: 0.5rem;
+  .margin-left-nav{
+    margin-left: 60%
   }
+
+  .padding-nav{
+    padding: 2%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center
+  }
+
+  .border-margin{
+    border-right: white 4px solid
+  }
+
+}
